@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.browse,#process{
+    background-color:rgb(44, 43, 45);
+    color: white;
+    /* padding: 0.1rem; */
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin: 1rem;
+    display: grid;
+    justify-self: start;
+    width: 50%;
+    padding: 7px;
+    text-align: center;
+    border-style: none;
+}
+#process{
+    width: 30%;
+    border : thin ridge white;
+    margin-left: 0;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-auto-rows: 100vh;
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.sidebar{
+    background-color:rgb(44, 43, 45);
+    padding: 50px 10px;
+}
+.file{
+    display:grid;
+    justify-self:center;
+}
+.dragdrop{
+    display:grid;
+    background-color: rgb(31, 29, 29);
+    border-radius:8px;
+    grid-template-rows: 50% 50%;
+    width: 90%;
+}
+.qa{
+    background-color:  rgb(31, 29, 29);
+    display: grid;
+    padding:50px 10px;
+    grid-template-rows: min-content;
+}
+.fileInput{
+    display: grid;
+}
+h6{
+    margin:0px;
+    margin-top: 1rem;
+    margin-left:1rem;
+}
+#filename{
+    margin:0px;
+    margin-top: 1rem;
+    margin-left:1rem;
+    font-size:x-small;
+}
+.title{
+    margin-left: 20vw;
+}
+h1{
+    justify-self: start;
+    align-items: center;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+label{
+    margin-left: 20vw;
+    margin-bottom: 15px;
+}
+input[type="text"], #result{
+    background-color:rgb(44, 43, 45);
+    border-style: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 20vw;
+    width: 50vw;
+    height: 40px;
+    color: white;
+    outline-style: none;
+    padding-left: 10px;
+}
+#result{
+    height: auto;
+    padding: 10px;
+    display: none;
+}
